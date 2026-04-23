@@ -7,7 +7,7 @@ const app = express();
 
 // Importer les routes
 const authRoutes = require('./routes/auth');
-const productRoutes = require('./routes/products');
+const productRoutes = require('./routes/product');
 const orderRoutes = require('./routes/orders');
 const adminRoutes = require('./routes/admin');
 
